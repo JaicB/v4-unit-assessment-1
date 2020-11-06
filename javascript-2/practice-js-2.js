@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = 'Git is an open source version control system. It has the capacity to effectively handle large and small objects'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = 'GitHub is a platform that allows users to host, review, and manage projects and software.  It is open source, making it possible to collaborate'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,6 +36,10 @@
 */
 
 //CODE HERE
+let init = {
+    description: 'initializes git in your current repository.',
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,6 +48,10 @@
 */
 
 //CODE HERE
+let clone = {
+    description: 'is a way of copying an already existing repository',
+    code: 'git clone [url]'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +60,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'is the command you can run to check what stage of the process you are on to push your code to github.',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +72,10 @@
 */
 
 //CODE HERE
+let add = {
+    description: 'tells git to track any changes that have been made.',
+    code: 'git add .'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +84,10 @@
 */
 
 //CODE HERE
+let commit = {
+    description: 'is the final step that makes it possible to push the code to gihub',
+    code: 'git commit -m "a message about changes made"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +96,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+    description: 'allows you to add a remote location to your repository',
+    code: 'git remote add'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +108,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'will push your code to github',
+    code: 'git push'
+}

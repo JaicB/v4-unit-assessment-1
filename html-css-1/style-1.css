@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+    width: 750px;
+    margin: 10px;
+    padding: 0;
+    background-color: black;
+}
+
+.section1 {
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(206, 122, 129);
+    padding: 0;
+    border: 5px;
+    box-sizing: border-box;
+}
+
+.section2 {
+    height: 40vh;
+    width: 100%;
+    border: 5px dotted black;
+    background-color: white;
+    margin: 15px 5px;
+    box-sizing: border-box;
+}
+
+.section2 h1 {
+    width: 100%;
+    text-align: left;
+    color: black;
+    letter-spacing: normal;
+    padding: 0;
+}
+
+.section3 {
+    height: 40vh;
+    width: 100%;
+    border: 5px dotted black;
+    background-color: white;
+    padding: 0;
+    box-sizing: border-box;
+}
